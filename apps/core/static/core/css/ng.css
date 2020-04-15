@@ -1,0 +1,43 @@
+[ng\:cloak], [ng-cloak], [data-ng-cloak], [x-ng-cloak], .ng-cloak, .x-ng-cloak {
+  display: none !important;
+}
+
+
+body {
+	font-family: 'Helvetica' !important; 
+	background: rgb(226, 225, 231); 
+	color: rgb(110, 111, 115);	
+}
+
+
+.form-control:focus {
+	border-color: rgb(130, 186, 188) !important;
+	box-shadow: none; 
+	-webkit-box-shadow: none;
+}
+
+
+
+.select option {
+    margin: 40px;
+    background: red !important;
+    color: yellow !important;
+    text-shadow: 0 1px 0 rgba(0, 0, 0, 0.4);
+}
+
+.fa.fa-instagram {
+  color: transparent;
+  background: radial-gradient(circle at 30% 107%, #fdf497 0%, #fdf497 5%, #fd5949 45%, #d6249f 60%, #285AEB 90%);
+  background: -webkit-radial-gradient(circle at 30% 107%, #fdf497 0%, #fdf497 5%, #fd5949 45%, #d6249f 60%, #285AEB 90%);
+  background-clip: text;
+  -webkit-background-clip: text;
+}
+
+.fa-linkedin, .fa-linkedin-square {
+    color: #007bb6
+}
+
+
+.fa-youtube, .fa-youtube-play, .fa-youtube-square {
+    color: #bb0000
+}
